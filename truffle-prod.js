@@ -1,5 +1,5 @@
 let HDWalletProvider = require('truffle-hdwallet-provider');
-let mnemonic = "broom alarm police luxury equal rival fish unaware shop polar obtain aerobic";
+let mnemonic = process.env.PRIV_SEED;
 
 module.exports = {
   networks: {
